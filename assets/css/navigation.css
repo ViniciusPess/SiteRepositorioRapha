@@ -1,0 +1,58 @@
+/* criando barra de navegação */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+    margin-top: 20px;
+}
+
+a:hover {
+ color: #aa2a2a;
+}
+
+.centralizador {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img {
+    max-width: 200%;
+    display: block;
+}
+
+
+.barra {
+    width: 200%;
+    
+    
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.barra-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.centralizador {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* barra de navegação terminada */
